@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    width: 100%;
+    overflow: hidden ;
+}
+.wrapp {
+    display: flex;
+    flex-direction: column;
+  
+    min-width: 100%;
+    max-width: 1499px;
+    margin: 0px auto;
+    height: 100vh;
+
+    font-family: 'Montserrat', sans-serif;
+    background: $main-bg-color;
+}
+.main {
+    position: relative;
+    flex: 1 1 auto;   
+
+    width: 100%;
+}
+.slider__class {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+    transition: 0.6 ease-in-out;   
+}
+.active {
+    opacity: 1;
+    transition: 0.7s;
+}

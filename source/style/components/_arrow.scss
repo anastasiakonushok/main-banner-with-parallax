@@ -1,0 +1,18 @@
+
+.controller {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left:2%;
+}
+//arrow 1
+
+.arrow-icon {
+    font-size: 40px;
+    
+    color:$arrow-color;
+}
+
+.arrow-icon:hover {
+    color:$second-text-color;
+}
