@@ -380,6 +380,7 @@ body {
 
 .arrow-icon:hover {
   color: #E93B3A;
+  cursor: pointer;
 }
 
 .footer {
