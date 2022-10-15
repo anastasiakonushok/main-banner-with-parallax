@@ -374,6 +374,7 @@ body {
 
 .arrow-icon {
   font-size: 40px;
+  cursor: pointer;
   color: #b8b7b7;
 }
 
